@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: url(purple.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: purple;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 1;
+}
+.main .menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.main .menu ul{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .menu ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.main .menu ul li a{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+.main .menu ul li a:hover{
+    background-color: yellow;
+    color: blueviolet;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.search{
+    width: 330px;
+    float: right;
+    margin-left: 200px;
+}
+
+
+.srch{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border-color: blueviolet;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: blueviolet;
+    border: 2px solid yellow;
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.btn:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+}
+.content h1{
+    font-size: 50px;
+    padding: left 20px;
+    padding-right: 25;
+    letter-spacing: 2px;
+
+}
+.content .par{
+    padding-left: 20px;
+    padding-right: 25px;
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: blueviolet; 
+    color: yellow;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.content .cn:hover{
+    color:blueviolet;
+    background: yellow;
+}
+.content img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 230px
+}
+.content h1 span{
+    color: yellow;
+}
+
+.form{
+    width: 250px;
+    height:450px;
+    background: linear-gradient(blueviolet, yellow,blueviolet);
+    position: absolute;
+    top: 100px;
+    left: 880px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blueviolet;
+    font-size: 22px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid blueviolet;
+    border-top: no;
+    border-right: none;
+    border-left: none;
+    color: white;
+    padding-left: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+::placeholder{
+    color: white;
+    font-family: arial;
+    padding-left: 10px;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: blueviolet;
+    border: none;
+    margin-top: 30px;
+    font: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.btnn:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+.btnn a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form #sign-up{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form .icon{
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.form .icon a{
+    color:yellow;
+    font-size: 20px;
+    text-align: right;
+}
+
+.form .icon a .bi.bi-facebook:hover{
+    color: rgb(23, 133, 223);
+}
+
+.form .icon a .bi.bi-twitter:hover{
+    color: rgb(54, 112, 221);
+}
+
+.form .icon a .bi.bi-instagram:hover{
+    color: rgb(198, 20, 243);
+}
+
+.form .icon a .bi.bi-google:hover{
+    color: rgb(238, 12, 12);
+}
+
+.form .icon a .bi.bi-linkedin:hover{
+    color: rgb(251, 251, 252);
+}
+footer{
+    background-color:  gray;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    font-size: 25px;
+}
+
+footer a{
+    text-decoration: none;
+    color:rgb(227, 243, 7);
+}
